@@ -20785,6 +20785,14 @@
           "chance": 100
         },
         {
+          "isSelf": false,
+          "isActive": true,
+          "effect": "prison",
+          "calc_type": "percent",
+          "amount": 5,
+          "duration": 8
+        },
+        {
           "isSelf": true,
           "effect": "increase_purify",
           "calc_type": "percent",
@@ -20800,14 +20808,14 @@
         {
           "isSelf": true,
           "effect": "increase_damage",
-          "calc_type": "percent",
-          "amount": 80
+          "calc_type": "number",
+          "amount": 1000
         },
         {
           "isSelf": true,
           "effect": "increase_critical",
-          "calc_type": "percent",
-          "amount": 10
+          "calc_type": "number",
+          "amount": 100
         }
       ]
     },
