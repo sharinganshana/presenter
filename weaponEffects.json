@@ -20772,8 +20772,8 @@
         {
           "isSelf": true,
           "effect": "increase_accuracy",
-          "calc_type": "number",
-          "amount": 5
+          "calc_type": "percent",
+          "amount": 100
         },
         {
           "isSelf": false,
@@ -20781,8 +20781,33 @@
           "effect": "freeze",
           "calc_type": "percent",
           "amount": 80,
-          "duration": 1,
-          "chance": 20
+          "duration": 8,
+          "chance": 100
+        },
+        {
+          "isSelf": true,
+          "effect": "increase_purify",
+          "calc_type": "percent",
+          "amount": 100
+        },
+        {
+          "isSelf": true,
+          "effect": "hp_cp_recover",
+          "calc_type": "percent",
+          "amount": 100,
+          "amount_cp": 100
+        },
+        {
+          "isSelf": true,
+          "effect": "increase_damage",
+          "calc_type": "percent",
+          "amount": 80
+        },
+        {
+          "isSelf": true,
+          "effect": "increase_critical",
+          "calc_type": "percent",
+          "amount": 10
         }
       ]
     },
